@@ -5,6 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Tom Betthauser – Full Stack Web Development Tutoring</title>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Yellowtail&display=swap" rel="stylesheet">
+
   <style>
     body {
       font-family: 'Roboto', sans-serif;
@@ -27,7 +32,10 @@
       padding: 2rem;
     }
     h1, h2, h3 {
-      color: #1976d2;
+        color: black;
+        font-family: "DM Serif Text", serif;
+        font-weight: 400;
+        font-style: normal;
     }
     table {
       width: 100%;
@@ -69,7 +77,7 @@
 <body>
   <div class="banner"></div>
   <div class="container">
-    <h1>Tom Betthauser Personal Tutoring for Software & Web Development</h1>
+    <h1>Tom Betthauser - Tutoring for Software & Web Development</h1>
     <p>
       I'm a professional software engineer and educator with over a decade of experience
       in both industry and academia. I offer personalized one-on-one tutoring in full stack web development
@@ -141,7 +149,7 @@
           <td>Grad Students (Unpaid)</td>
           <td>Self-funded or on loans</td>
           <td>$50–$70</td>
-          <td>Common for MFA, MA, or MILS students</td>
+          <td>MFA, MA students etc.</td>
         </tr>
         <tr>
           <td>Grad Students (Paid)</td>
@@ -153,7 +161,7 @@
           <td>Grad Students (Employed)</td>
           <td>Working professionals</td>
           <td>$90–$105</td>
-          <td>Near full-rate for career switchers</td>
+          <td>Near full-rate for career switch goals</td>
         </tr>
         <tr>
           <td>Adult Career-Switchers</td>
@@ -190,14 +198,15 @@
       <li>Equity option: Low-cost or pro bono slots available quarterly</li>
     </ul>
 
-    <div class="footer">
-      <h3>Contact</h3>
-      <p>
-          LinkedIn: <a href="https://www.linkedin.com/in/tombetthauser">linkedin.com/in/tombetthauser</a>
-          <br />
-          Email: <a href="mailto:tombetthauser@gmail.com">tombetthauser@gmail.com</a>
-      </p>
-    </div>
+    <h3>Contact</h3>
+    <ul>
+      <li>
+          <a href="https://www.linkedin.com/in/tombetthauser">linkedin.com/in/tombetthauser</a>
+      </li>
+      <li>
+          <a href="mailto:tombetthauser@gmail.com">tombetthauser@gmail.com</a>
+      </li>
+    </ul>
   </div>
 </body>
 </html>
